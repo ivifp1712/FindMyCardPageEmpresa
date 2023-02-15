@@ -37,7 +37,6 @@ a {
     text-decoration: none !important; }
 
 .hero {
-  height: 100vh;
   width: 100%;
   background: #000000; }
 
@@ -55,14 +54,72 @@ header{
   display: inline;
 }
 
-.centrar{
+.centrarIcons{
   margin-top: 4%;
+  margin-bottom: 4%;
   font-size: 25px;
   text-align: center;
   color: #7b7b7b;
   letter-spacing:22px ;
 }
 
+.centrar{
+  width: 80% !important;
+  margin: 0 auto !important;
+  font-size: 25px;
+  text-align: center;
+  color: #7b7b7b;
+  background-color: transparent;
+  border: #7b7b7b 1px solid;
+  padding: 3% !important;
+  
+}
+
+.titulos{
+  color: #ced4da;
+}
+
+.androidlink{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  width: 50% !important;
+  margin: 0 auto;
+  background-color: antiquewhite;
+  padding: 1%;
+  padding-right: 2%;
+  border: #7b7b7b 2px solid;
+  border-radius: 3% 3% 3% 3% !important;
+  background-color: rgb(226, 224, 220);
+}
+
+.androidlink > p{
+  /* centrar en vertical */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  margin: 0 auto;
+  
+}
+
+.logoandroid{
+  width: 25% !important;
+}
+
+.installbutton{
+  background-color: #00a173;
+  padding: 2%;
+  font-size: 18px;
+  color: aliceblue;
+  border-radius: 10%;
+}
+
+.installbutton > a:hover, .installbutton > a:focus, .installbutton > a:active, .installbutton > a:visited, .installbutton > a:link{
+  color: aliceblue;
+}
 
 .site-navbar {
   margin-bottom: 0px;
