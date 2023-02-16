@@ -37,9 +37,49 @@ a {
     text-decoration: none !important; }
 
 .hero {
-  width: 100%;
-  background: #000000; }
+  background: #000000; 
 
+}
+ .Tit{
+    color: #ebecec !important;
+    display: inline-block;
+  }
+
+  .container{
+    width: 100%;
+  }
+  html{
+    width: 100%;
+  }
+
+  .eslogan{
+    width: 100%;
+  }
+
+@media screen and (max-width: 800px) {
+  .hero {
+    padding-top: 15vh;
+    background: #000000; 
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed; }
+
+  
+  .row{
+    display: flex !important;
+    flex-direction: row !important;
+    justify-content: space-around !important;
+    align-items: center;
+  }
+
+  
+  .logo{
+    inline-size: min-content !important;
+    overflow-wrap:  break-word !important;
+    word-wrap: normal !important;
+  }
+  
+  } 
   
 header{
   background-color: #0e0e12;
@@ -51,7 +91,6 @@ header{
   /* margin: 0 auto;
   margin-top: 20px;
   margin-bottom: 20px; */
-  display: inline;
 }
 
 .centrarIcons{
@@ -84,7 +123,7 @@ header{
   justify-content: center;
   align-items: center;
   flex-direction: row;
-  width: 50% !important;
+  width: 25vh !important;
   margin: 0 auto;
   background-color: antiquewhite;
   padding: 1%;
@@ -355,14 +394,14 @@ header{
       position: relative;
       color: #212529; }
       .site-mobile-menu .site-nav-wrap a:hover {
-        color: #eb4d55; }
+        color: #d00df7  ; }
     .site-mobile-menu .site-nav-wrap li {
       position: relative;
       display: block; }
       .site-mobile-menu .site-nav-wrap li .nav-link.active {
         color: #eb4d55; }
       .site-mobile-menu .site-nav-wrap li.active > a {
-        color: #eb4d55; }
+        color: #d00df7; }
     .site-mobile-menu .site-nav-wrap .arrow-collapse {
       position: absolute;
       right: 0px;
